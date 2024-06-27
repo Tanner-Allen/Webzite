@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1B262C;
+}
+
+li, a, button, .Logo-Text {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 16px;
+    color: #BBE1FA;
+    text-decoration: none;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    border-bottom: 2px #12344D solid;
+}
+
+.Logo-Text {
+      padding: 12px;
+      font-size: 28px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      border: 2.5px #BBE1FA solid;
+}
+.Nav-Container {
+    list-style: none;
+}
+.Nav-Container li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.Nav-Container li a {
+    transition: all 0.3s ease 0s;
+}
+.Nav-Container li a:hover {
+    color: #0F4C75;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #3282B8;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: #0F4C75;
+    color: #3282B8;
+}
+.Index-Div {
+    margin-top: 0;
+    background-color: beige;
+    width: 100%;
+    height: 1000px;
+    color: white;
+}
